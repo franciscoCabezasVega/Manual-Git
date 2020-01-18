@@ -5,5 +5,5 @@ Instrucciones y codigos para utilizar Git
 
 ### Crear Repositorio
 
-Para inicializar nuestro repositorio utilizamos el comando ´git init´ Nombre_Repositorio 
+Para inicializar nuestro repositorio utilizamos el comando `git init Nombre_Repositorio`
 
