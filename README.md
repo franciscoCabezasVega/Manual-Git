@@ -11,10 +11,12 @@ Instrucciones y codigos para utilizar Git
 5. GIT RESET
 6. GIT BRANCH
 7. GIT CHECKOUT
+8. GIT MERGE
+9. GIT STASH
 
 ## Etapas del proyecto
 
-Recordar reemplazar los valores encerrados dentro de los [].
+Recordar reemplazar los valores encerrados dentro de los [ ].
 
 ### Inicializar Repositorio
 
@@ -141,4 +143,25 @@ Para renombrar nuestras ramas simplemente debemos ingresar el comando con la est
 
 ## GIT CHECKOUT
 
-###
+### Moverse a otra rama
+
+Para movernos entre una rama a otra basta con escribir el nombre de la rama a donde queremos estar `git checkout [RAMA]`.
+
+### Moverse al estado actual de un commit
+
+Si se desea revisar el estado de un proyecto cuando hicimos un determinado commit se puede revisar ingresando la siguiente instruccion seguida de su respectivo codigo: `git checkout [SHA]`.
+
+### Crear una rama e ingresar de inmediato
+
+Para crear una rama y quedarnos dentro en un solo paso, se debe escribir el siguiente comando: `git chekout -b [RAMA]`.
+
+## GIT MERGE
+
+### Mezclar los cambios
+
+Para mezclar los cambios de una rama a la rama master, primero debemos ubicarnos en la rama que deseamos agregar los cambios, despues, ejecutar el siguiente comando con el nombre de la rama de donde se piensa mezclar todo `git merge [RAMA a mezclar]`.
+
+## GIT STASH
+
+### Guardar cambios temporalmente
+
