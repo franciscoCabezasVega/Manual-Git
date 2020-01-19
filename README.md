@@ -4,15 +4,16 @@ Instrucciones y codigos para utilizar Git
 
 ## Contenido
 
-1. Etapas del proyecto
-2. GIT TAG
-3. GIT LOG
-4. COMPARACIONES
-5. GIT RESET
-6. GIT BRANCH
-7. GIT CHECKOUT
-8. GIT MERGE
-9. GIT STASH
+01. Etapas del proyecto
+02. GIT TAG
+03. GIT LOG
+04. COMPARACIONES
+05. GIT RESET
+06. GIT BRANCH
+07. GIT CHECKOUT
+08. GIT MERGE
+09. GIT STASH
+10. GIT CHERRY-PICK
 
 ## Etapas del proyecto
 
@@ -165,3 +166,22 @@ Para mezclar los cambios de una rama a la rama master, primero debemos ubicarnos
 
 ### Guardar cambios temporalmente
 
+Para guardar los cambios de forma temporal sin afectar nuestro proyecto se utiliza el comando `git stash` siempre y cuando existan cambios en la fase de stage.
+
+### Listar Stash
+
+Para listar los estados se debe ingresar la instruccion `git stash list`.
+
+### Eliminar Stash
+
+Al momento de eliminar un stash en necesario copiar el nombre del mismo junto con en indice que corresponde a su espacio en memoria de esta manera: `git stash drop  stash@{1}`.
+
+### Aplicar los cambios del ultimo stash
+
+Ingresando el siguiente comando `git stash apply` se pueden aplicar todos los cambios sucedidos a partir del ultimo stash.
+
+## GIT CHERRY-PICK
+
+## Seleccionando un commit
+
+Cuando se presenta una situacion en donde solo queremos subir un cambio de una rama a otra, es necesario usar el comando `git cherry-pick [SHA]` junto al codigo del commit que deseamos subir.
