@@ -4,7 +4,7 @@ Instrucciones y codigos para utilizar Git
 
 ## Contenido
 
-01. Etapas del proyecto
+01. [Etapas del proyecto](#etapas-del-proyecto)
 02. GIT TAG
 03. GIT LOG
 04. COMPARACIONES
