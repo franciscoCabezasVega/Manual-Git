@@ -56,7 +56,7 @@ El archivo puede ser revisado con `git add -n [nombre_archivo]`.
 
 Nos permite anexar un cambio dentro de nuestro repositorio con la opcion de sobreescribir el commit anterior, para sobreescribir el commit y guardar los cambios basta con ingresar el comando `git commit -m "[Ej. Comentando respecto al codigo]" --amend` y si se desea mantener el commit anterior entonces seria de la siguiente forma: `git commit --amend`.
 
-## GIT TAG
+## [GIT TAG](#manual-git)
 
 ### Versionamiento del codigo (TAG)
 
@@ -78,7 +78,7 @@ Para borrar basta con escribir el siguiente comando seguido de la etiqueta a bor
 
 El proceso para renombrar una version de alguno de nuestros commit es el siguiente en donde se reciben 3 parametros los cuales son: nombre de la nueva etiqueta > comentario > Id del commit afectado `git tag -f -a [0.1] -m '[iniciando]' [ID_SHA_Commit]`.
 
-## GIT LOG
+## [GIT LOG](#manual-git)
 
 ### Historia resumida
 
@@ -92,7 +92,7 @@ Para ver el historial de commits en forma resumida y en solo una linea con grafi
 
 Para ver el historial de commits en forma resumida y en solo una linea dentro de un rango simplemente le pasamos ese parametro luego del - tal como se muestra a continuacion `git log -[3]`.
 
-## COMPARACIONES
+## [COMPARACIONES](#manual-git)
 
 ### Cambio entre el estado actual con respecto a otro
 
@@ -102,7 +102,7 @@ Para ver las diferencias entre el estado en el que nos encontramos actualemnte y
 
 Para comparar los cambios sucedidos entre una version y otra se ingresa el siguiente comando: `git diff [SHA Version 1] VS [SHA Version 2]`.
 
-## GIT RESET
+## [GIT RESET](#manual-git)
 
 ### Reset Soft
 
@@ -120,7 +120,7 @@ Para borrar el archivo del stage se debe ingresas el comando `git reset HEAD [ar
 
 Para borrar el archivo de todas las fases y dejar todo como si nunca hubiera existido, se debe ingresas el comando `git reset --hard [SHA]`.
 
-## GIT BRANCH
+## [GIT BRANCH](#manual-git)
 
 ### Crear Rama
 
@@ -142,7 +142,7 @@ En el caso de que no se cumpla lo mencionado en el punto anterior se debe escrib
 
 Para renombrar nuestras ramas simplemente debemos ingresar el comando con la estructura mostrada a continuacion: `git branch -m [Nombre de la rama viejo] [Nombre de la rama nuevo]`.
 
-## GIT CHECKOUT
+## [GIT CHECKOUT](#manual-git)
 
 ### Moverse a otra rama
 
@@ -156,13 +156,13 @@ Si se desea revisar el estado de un proyecto cuando hicimos un determinado commi
 
 Para crear una rama y quedarnos dentro en un solo paso, se debe escribir el siguiente comando: `git chekout -b [RAMA]`.
 
-## GIT MERGE
+## [GIT MERGE](#manual-git)
 
 ### Mezclar los cambios
 
 Para mezclar los cambios de una rama a la rama master, primero debemos ubicarnos en la rama que deseamos agregar los cambios, despues, ejecutar el siguiente comando con el nombre de la rama de donde se piensa mezclar todo `git merge [RAMA a mezclar]`.
 
-## GIT STASH
+## [GIT STASH](#manual-git)
 
 ### Guardar cambios temporalmente
 
@@ -180,8 +180,8 @@ Al momento de eliminar un stash en necesario copiar el nombre del mismo junto co
 
 Ingresando el siguiente comando `git stash apply` se pueden aplicar todos los cambios sucedidos a partir del ultimo stash.
 
-## GIT CHERRY-PICK
+## [GIT CHERRY-PICK](#manual-git)
 
-## Seleccionando un commit
+### Seleccionando un commit
 
 Cuando se presenta una situacion en donde solo queremos subir un cambio de una rama a otra, es necesario usar el comando `git cherry-pick [SHA]` junto al codigo del commit que deseamos subir.
