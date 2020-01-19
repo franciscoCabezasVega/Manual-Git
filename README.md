@@ -5,15 +5,15 @@ Instrucciones y codigos para utilizar Git
 ## Contenido
 
 01. [Etapas del proyecto](#etapas-del-proyecto)
-02. GIT TAG
-03. GIT LOG
-04. COMPARACIONES
-05. GIT RESET
-06. GIT BRANCH
-07. GIT CHECKOUT
-08. GIT MERGE
-09. GIT STASH
-10. GIT CHERRY-PICK
+02. [GIT TAG](#git-tag)
+03. [GIT LOG](#git-log)
+04. [COMPARACIONES](#comparaciones)
+05. [GIT RESET](#git-reset)
+06. [GIT BRANCH](#git-branch)
+07. [GIT CHECKOUT](#git-checkout)
+08. [GIT MERGE](#git-merge)
+09. [GIT STASH](#git-stash)
+10. [GIT CHERRY-PICK](#git-cherry-pick)
 
 ## Etapas del proyecto
 
