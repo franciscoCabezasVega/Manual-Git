@@ -15,7 +15,7 @@ Instrucciones y codigos para utilizar Git
 09. [GIT STASH](#git-stash)
 10. [GIT CHERRY-PICK](#git-cherry-pick)
 
-## Etapas del proyecto
+## [Etapas del proyecto](#manual-git)
 
 Recordar reemplazar los valores encerrados dentro de los [ ].
 
