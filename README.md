@@ -1,6 +1,6 @@
 # Manual-Git
 
-Instrucciones y codigos para utilizar Git
+Instrucciones y codigos para utilizar Git.
 
 ## Contenido
 
