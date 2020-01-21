@@ -114,7 +114,7 @@ El comando `git reset --mixed [SHA]` va a quitar el ultimo commit realizado sobr
 
 ### Reset Head
 
-Para borrar el archivo del stage se debe ingresas el comando `git reset HEAD [archivo]`.
+Para borrar el archivo del stage se debe ingresar el comando `git reset HEAD [archivo]`.
 
 ### Reset Hard
 
